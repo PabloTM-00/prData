@@ -1,5 +1,6 @@
-#Advanced Programming I. Exercise 3.1#
-Unit 3. Exception management
+# sampleMavenProject
+Simple Maven project template to be used as a start for Maven Java projects.
 
-Description of the exercise
-In this exercise, we will learn to define new exceptions, both checked and unchecked, and the differences in the treatment and propagation of both (unlike unchecked exceptions, checked exceptions must be announced in case a certain method throws or propagates them, or otherwise the method is obliged to capture it).
+It has a very simple structure with a folder src/main/java for source code Java files and a folder src/test/java for JUnit test files. The present files, App.java and TestApp.java are there for the folders of the project to be properly cloned from the remote repository. They should be deleted.
+
+Remember to change the artifact id and, if required, the source and target Java version in file pom.xml.
