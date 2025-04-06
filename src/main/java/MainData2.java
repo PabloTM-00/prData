@@ -1,8 +1,7 @@
 import java.util.Arrays;
+import data2.*;
 
-import data.*;
-
-public class MainData {
+public class MainData2 {
 
     public static void main(String[] args) {
         double min, max;

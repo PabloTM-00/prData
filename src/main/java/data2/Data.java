@@ -1,4 +1,4 @@
-package data;
+package data2;
 
 import java.util.ArrayList;
 
@@ -60,7 +60,7 @@ public class Data {
  		  return sum / count;
 	}
 	
-	public double calcStandardDeviation() {
+	public double calcStandardDeviation() throws DataException {
 		double avg = calcAverage();
 		
 		double sum = 0;
